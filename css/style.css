@@ -1,0 +1,59 @@
+body{
+        text-align: center;
+    padding: 40px;
+}
+input[type="number"]
+{
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+input[type="submit"]
+{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.char{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    background: #015a90;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    color: #fff;
+}
+img{
+    max-width: 400px;
+    max-height: 250px;
+    margin-top: 5px;
+    float: right;
+    margin-top: 30px;
+}
+table{
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    display: inline-block;
+    float: left;
+    display: none;
+}
+th,td{
+      padding: 7px
+}
+th{
+    background: #eee;
+}
+button#getEvents{
+    padding: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    background: #a77c06;
+    color: #fff;
+}
